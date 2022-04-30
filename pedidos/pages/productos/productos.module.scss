@@ -1,0 +1,22 @@
+.containerProducts{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    gap: 15px;
+}
+.containerList{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.text{
+    text-transform: capitalize;
+    text-align: center;
+}
+.cardProduct{
+    border-radius: 5px;
+    border-left: 6px solid goldenrod;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

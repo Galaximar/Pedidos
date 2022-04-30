@@ -1,0 +1,29 @@
+{
+  "name": "pedidos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/lab": "^5.0.0-alpha.77",
+    "@mui/material": "^5.5.1",
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "sass": "^1.49.9",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5"
+  }
+}
